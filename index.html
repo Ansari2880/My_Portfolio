@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Description" content="Enter your description here" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="70" tabindex="0">
+    <header>
+        <nav data-aos="fade-right" data-aos-duration="700" class="navbar navbar-expand-md navbar-dark bg-dark"
+            id="navbar">
+            <div class="container containera">
+                <a class="navbar-brand logo" href="images/removebg.png"><img src="images/removebg.png" height="100px"
+                        width="100px" alt="myimg"></a>
+                <button data-bs-toggle="collapse" data-bs-target="#cpse" class="navbar-toggler"><span
+                        class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse " id="cpse">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item"><a class="nav-link mx-2 active" href="#profile">PROFILE</a></li>
+                        <li class="nav-item"><a class="nav-link mx-2" href="#projects">PROJECTS</a></li>
+                        <li class="nav-item"><a class="nav-link mx-2" href="#feedback">FEEDBACK</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div id="profile"></div>
+
+    <div class="container containerb  mt-5">
+        <div class="row">
+            <div class="col-lg-4 col-md-6">
+                <h1 >SAAD ANSARI</h1>
+                <p class="ml2">I,m Saad, an ACCP AI student passionate about Artificial Intelligence, programming, and
+                    building
+                    practical tech solutions. I,m focused on improving my skills and growing as an AI developer.</p>
+                <button   class="pbtn btn  ">HIRE ME</button>
+                <!-- data-aos="fade-down-right" data-aos-duration="2000" data-aos-delay="2000" -->
+            </div>
+            <div class="col-lg-4 col-md-6 offset-lg-4 ">
+                <a href="images/myimage.webp"><img data-aos="fade-up" data-aos-duration="2000" class="myimg"
+                        src="images/myimage.webp" height="200px" width="200px" alt="myimg"></a>
+            </div>
+        </div>
+    </div>
+
+    <div id="projects"></div>
+    <h1 data-aos="flip-left" data-aos-duration="1000" class="projh">PROJECTS</h1>
+
+
+    <div class=" row  text-center ">
+
+        <div class="col-lg-4 col-md-12 cola ms-5 " style="margin-left: 0px;">
+            <div class="card ca" data-aos="flip-down" data-aos-duration="1000">
+                <div class="card-body"><img src="images/html.png" height="150px" alt="html"></div>
+                <div class="card-title">HTML</div>
+                <a href="Hwork.html"><button class="btn btn-outline-success">CHECK PROJECTS</button></a>
+            </div>
+        </div>
+        <div class="col-lg-3 col-md-12  colb" data-aos="flip-down" data-aos-duration="1500">
+            <div class="card cb">
+                <div class="card-body"><img src="images/CSS.png" height="150px" alt="html"></div>
+                <div class="card-title">CSS</div>
+                <a href="Cwork.html"><button class="btn btn-outline-success">CHECK PROJECTS</button></a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-12 colc me-5" data-aos="flip-down" data-aos-duration="1600">
+            <div class="card cc">
+                <div class="card-body"><img src="images/bootstrappng.webp" height="150px" alt="html"></div>
+                <div class="card-title">BOOTSTRAP</div>
+                <a href="Bwork.html"><button class="btn btn-outline-success">CHECK PROJECTS</button></a>
+            </div>
+        </div>
+    </div>
+
+
+    <div id="feedback"></div>
+    <h1 data-aos="flip-left" data-aos-duration="1000"  class="feedh">FEEDBACK</h1>
+
+    <form class="offset-lg-2 ">
+        <div class="row">
+            <div class="col-lg-6 offset-2">
+                <div class="form-group" data-aos="fade-up" data-aos-duration="1000">
+                    <label for="text">YOUR NAME</label>
+                    <input type="text" placeholder="Usaid" class="form-control " required >
+                </div>
+
+                <div class="form-group" data-aos="fade-up"   data-aos-duration="1500">
+                    <label for="gender" style="display: block;">GENDER 👨‍✈️|👩‍✈️</label>
+                    <input type="radio" name="gender" value="male" class="radio " required title=""> <span style="font-weight: bold; color: rgb(4, 251, 53);">MALE</span>
+                    <input type="radio" name="gender" value="female" class="radio " required title=""> <span style="font-weight: bold; color: rgb(0, 255, 30);">FEMALE</span>
+                </div>
+
+                <div class="form-group" data-aos="fade-up" data-aos-duration="2000">
+                    <label for="userlink" style="display: block;">YOUR PORTFOLIO</label>
+                    <input type="url" placeholder="https://example.com" class="form-control " required title="">
+                </div>
+
+                <div class="form-group" data-aos="fade-up" data-aos-duration="2500">
+                    <label for="" style="display: block;">YOUR FEEDBACK</label>
+                    <textarea name="textarea" placeholder="your text" class="form-control " required title=""></textarea>
+                </div>
+
+                <!-- <div class="form-group" style="display: block;">
+                    <label for="select">YOUR AGE</label>
+                    <select name="select" > 
+                        <option>15</option>
+                        <option>16</option>
+                        <option>17</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                        <option>22</option>
+                        <option>23</option>
+                        <option>24</option>
+                        <option>25</option>
+                        <option>26</option>
+                        <option>28</option>
+                        <option>29</option>
+                        <option>30</option>
+                        <option>31</option>
+                        <option>32</option>
+                        <option>33</option>
+                        <option>34</option>
+                        <option>35</option>
+                        <option>36</option>
+                        <option>37</option>
+                        <option>38</option>
+                        <option>39</option>
+                        <option>40</option>
+                    </select>
+                </div> -->
+                <a href="#"><button class="sbtn btn text-success offset-lg-5 " data-aos="zoom-in" data-aos-easing="ease-in-back" data-aos-delay="1200" data-aos-offset="0">SUBMIT</button></a>
+            </div>
+        </div>
+    </form>
+    <footer>&copy SAAD all reserved | FRONTEND DEVELOPER </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+        var textWrapper = document.querySelector('.ml2');
+        textWrapper.innerHTML = textWrapper.textContent.replace(/\S/g, "<span class='letter'>$&</span>");
+
+        anime.timeline({ loop: true })
+            .add({
+                targets: '.ml2 .letter',
+                scale: [4, 1],
+                opacity: [0, 1],
+                translateZ: 0,
+                easing: "easeOutExpo",
+                duration: 950,
+                delay: (el, i) => 70 * i
+            }).add({
+                targets: '.ml2',
+                opacity: 0,
+                duration: 500,
+                easing: "easeOutExpo",
+                delay: 2000
+            });
+            
+
+            
+    </script>
+
+</body>
+
+</html>
