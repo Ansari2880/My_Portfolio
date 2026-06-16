@@ -1,97 +1,200 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="Description" content="Enter your description here" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <title>HWORK</title>
-    <style>
-        body{
-            background: linear-gradient(to right bottom,rgb(234, 182, 182),rgb(41, 172, 242),rgb(173, 246, 27)) !important;
-            height: 100vh;
+
+```
+<title>HTML Projects | Muhammad Saad Portfolio</title>
+
+<meta name="description"
+    content="HTML projects created by Muhammad Saad. Explore pages, tables, description lists and navbar projects.">
+
+<meta name="keywords"
+    content="Muhammad Saad, HTML Projects, Portfolio, Frontend Developer, HTML Practice">
+
+<meta name="author" content="Muhammad Saad">
+
+<link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+    }
+
+    body{
+        background:linear-gradient(
+            to right bottom,
+            rgb(234,182,182),
+            rgb(41,172,242),
+            rgb(173,246,27)
+        );
+        min-height:100vh;
+        overflow-x:hidden;
+    }
+
+    .container{
+        padding:20px;
+    }
+
+    h1{
+        text-align:center;
+        margin:30px 0;
+        font-weight:bold;
+    }
+
+    .table-responsive{
+        border-radius:10px;
+        overflow:hidden;
+    }
+
+    table{
+        margin-top:20px;
+    }
+
+    th{
+        background:cadetblue !important;
+        color:white;
+    }
+
+    td{
+        background:aquamarine !important;
+    }
+
+    a{
+        text-decoration:none;
+        font-weight:bold;
+        color:black;
+    }
+
+    a:hover{
+        text-decoration:underline;
+    }
+
+    footer{
+        text-align:center;
+        margin-top:30px;
+        padding:15px;
+        font-weight:bold;
+    }
+
+    @media(max-width:768px){
+
+        h1{
+            font-size:1.8rem;
         }
 
-        table {
-            text-decoration: none !important;
-            margin-top: 50px;
+        table{
+            font-size:14px;
         }
-        
-        th{
-            background-color: cadetblue !important;
+    }
+
+    @media(max-width:480px){
+
+        h1{
+            font-size:1.4rem;
         }
-        td{
-            background-color: aquamarine !important;
+
+        table{
+            font-size:12px;
         }
-        a {
-            text-decoration: none;
-            font-weight: bold;
-        }
-        a:hover{
-            text-decoration: underline;
-            
-        }
-    </style>
+    }
+</style>
+```
 
 </head>
 
 <body>
-    <div class="container">
-        
-            <table data-aos="fade-right" data-aos-duration="1000" data-aos-delay="0" class="table table-hover table-striped  table-bordered  text-center">
-                <thead data-aos="fade-right" data-aos-duration="1000" data-aos-delay="400">
-                    <th class="table mx-5 text-center" style="width: 70%;">PROJECTS</th>
-                    <th class="table mx-5 text-center" style="width: 30%;">DATE & TIME</th>
-                </thead>
-                <tbody  >
-                    <tr data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
-                        <td><a href="PROJECTS/vs work/PAGES/page1.html"> PAGES</a></td>
-                        <td>
-                            <span>
-                                05/02/2026 | 5:49 pm
-                            </span>
-                        </td>
-                    </tr>
-                    <tr data-aos="fade-right" data-aos-duration="1000" data-aos-delay="700">
-                        <td><a href="PROJECTS/vs work/TABLE/tabledata.html"> TABLE</a></td>
-                        <td>
-                            <span>
-                                12/02/2026 | 12:12 pm
-                            </span>
-                        </td>
-                    </tr>
-                    <tr data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900">
-                        <td ><a href="PROJECTS/vs work/TABLE/descriptionlist.html"> DESCRIPTION LIST</a></td>
-                        <td>
-                            <span>
-                                11/02/2026 | 05:55 pm
-                            </span>
-                        </td>
-                    </tr>
-                    <tr data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1100">
-                        <td><a href="PROJECTS/vs work/structure/index.html"> NAVBAR</a></td>
-                        <td>
-                            <span>
-                                08/03/2026 | 10:58 AM
-                            </span>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-        
+
+```
+<div class="container">
+
+    <h1 data-aos="fade-down">
+        HTML PROJECTS
+    </h1>
+
+    <div class="table-responsive">
+
+        <table data-aos="fade-right"
+            class="table table-hover table-striped table-bordered text-center">
+
+            <thead>
+                <tr>
+                    <th style="width:70%">PROJECTS</th>
+                    <th style="width:30%">DATE & TIME</th>
+                </tr>
+            </thead>
+
+            <tbody>
+
+                <tr>
+                    <td>
+                        <a href="PROJECTS/vs work/PAGES/page1.html"
+                            title="HTML Pages Project">
+                            PAGES
+                        </a>
+                    </td>
+                    <td>05/02/2026 | 5:49 PM</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <a href="PROJECTS/vs work/TABLE/tabledata.html"
+                            title="HTML Table Project">
+                            TABLE
+                        </a>
+                    </td>
+                    <td>12/02/2026 | 12:12 PM</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <a href="PROJECTS/vs work/TABLE/descriptionlist.html"
+                            title="HTML Description List Project">
+                            DESCRIPTION LIST
+                        </a>
+                    </td>
+                    <td>11/02/2026 | 05:55 PM</td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <a href="PROJECTS/vs work/structure/index.html"
+                            title="HTML Navbar Project">
+                            NAVBAR
+                        </a>
+                    </td>
+                    <td>08/03/2026 | 10:58 AM</td>
+                </tr>
+
+            </tbody>
+
+        </table>
+
     </div>
 
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-  AOS.init();
+</div>
+
+<footer>
+    © Muhammad Saad | HTML Projects
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+    AOS.init();
 </script>
+```
+
 </body>
 
 </html>

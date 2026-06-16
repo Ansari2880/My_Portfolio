@@ -1,124 +1,248 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="Description" content="Enter your description here" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="stylesheet" href="assets/css/style.css">
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    <title>Bwork</title>
-    <style>
-        body {
-            background: linear-gradient(to right bottom, rgb(234, 182, 182), rgb(41, 172, 242), rgb(173, 246, 27)) !important;
-            height: 100vh;
+
+```
+<title>Bootstrap Projects | Muhammad Saad Portfolio</title>
+
+<meta name="description"
+    content="Bootstrap projects created by Muhammad Saad. Explore websites, forms, nav tabs, dropdowns, progress bars and other Bootstrap projects.">
+
+<meta name="keywords"
+    content="Muhammad Saad, Bootstrap Projects, Frontend Developer, Bootstrap Portfolio">
+
+<meta name="author" content="Muhammad Saad">
+
+<link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+    }
+
+    body{
+        background:linear-gradient(
+            to right bottom,
+            rgb(234,182,182),
+            rgb(41,172,242),
+            rgb(173,246,27)
+        );
+        min-height:100vh;
+        overflow-x:hidden;
+    }
+
+    .container{
+        padding:20px;
+    }
+
+    h1{
+        text-align:center;
+        margin:30px 0;
+        font-weight:bold;
+    }
+
+    .table-responsive{
+        border-radius:10px;
+        overflow:hidden;
+    }
+
+    table{
+        margin-top:20px;
+    }
+
+    th{
+        background:cadetblue !important;
+        color:white;
+    }
+
+    td{
+        background:aquamarine !important;
+    }
+
+    a{
+        text-decoration:none;
+        font-weight:bold;
+        color:black;
+    }
+
+    a:hover{
+        text-decoration:underline;
+    }
+
+    footer{
+        text-align:center;
+        margin-top:30px;
+        padding:15px;
+        font-weight:bold;
+    }
+
+    @media(max-width:768px){
+        h1{
+            font-size:1.8rem;
         }
 
-        table {
-            text-decoration: none !important;
-            margin-top: 50px;
+        table{
+            font-size:14px;
+        }
+    }
+
+    @media(max-width:480px){
+        h1{
+            font-size:1.4rem;
         }
 
-        th {
-            background-color: cadetblue !important;
+        table{
+            font-size:12px;
         }
+    }
+</style>
+```
 
-        td {
-            background-color: aquamarine !important;
-        }
-
-        a {
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        a:hover {
-            text-decoration: underline;
-
-        }
-    </style>
 </head>
 
 <body>
-    <div class="container">
-        <table class="table table-hover table-striped  table-bordered text-center">
-            <thead data-aos="fade-right" data-aos-duration="1000" data-aos-delay="0">
-                <th class="table mx-5" style="width: 70%;">PROJECTS</th>
-                <th class="table mx-5" style="width: 30%;">DATE</th>
+
+```
+<div class="container">
+
+    <h1 data-aos="fade-down">
+        BOOTSTRAP PROJECTS
+    </h1>
+
+    <div class="table-responsive">
+
+        <table data-aos="fade-right"
+            class="table table-hover table-striped table-bordered text-center">
+
+            <thead>
+                <tr>
+                    <th style="width:70%">PROJECTS</th>
+                    <th style="width:30%">DATE & TIME</th>
+                </tr>
             </thead>
+
             <tbody>
-                <tr data-aos="fade-right" data-aos-duration="1000" data-aos-delay="200">
-                    <td><a href="PROJECTS/bootstrap work/assigment/index.html">MINI WEBSITE</a></td>
+
+                <tr>
                     <td>
-                        <span>10/03/2026 | 04:27 PM</span>
+                        <a href="PROJECTS/bootstrap work/assigment/index.html">
+                            MINI WEBSITE
+                        </a>
                     </td>
+                    <td>10/03/2026 | 04:27 PM</td>
                 </tr>
-                <tr data-aos="fade-right" data-aos-duration="1000" data-aos-delay="500">
-                    <td><a href="PROJECTS/bootstrap work/assigmet/navb-tabs.html"> NAV-TABS</a></td>
+
+                <tr>
                     <td>
-                        <span>12/04/2026 | 09:11 PM</span>
+                        <a href="PROJECTS/bootstrap work/assigmet/navb-tabs.html">
+                            NAV-TABS
+                        </a>
                     </td>
-                </tr >
-                <tr data-aos="fade-right" data-aos-duration="1000" data-aos-delay="700">
-                    <td><a href="PROJECTS/bootstrap work/card.html"> MOBILE WEBSITE</a></td>
-                    <td>
-                        <span>10/03/2026 | 04:27 PM</span>
-                    </td>
+                    <td>12/04/2026 | 09:11 PM</td>
                 </tr>
-                <tr data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900">
-                    <td><a href="PROJECTS/bootstrap work/dropdown/index.html"> DROPDOWN</a></td>
+
+                <tr>
                     <td>
-                        <span>14/04/2026 | 08:47 PM</span>
+                        <a href="PROJECTS/bootstrap work/card.html">
+                            MOBILE WEBSITE
+                        </a>
                     </td>
+                    <td>10/03/2026 | 04:27 PM</td>
                 </tr>
-                <tr data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1100">
-                    <td><a href="PROJECTS/bootstrap work/form.html"> FORM</a></td>
+
+                <tr>
                     <td>
-                        <span>14/04/2026 | 07:50 PM</span>
+                        <a href="PROJECTS/bootstrap work/dropdown/index.html">
+                            DROPDOWN
+                        </a>
                     </td>
+                    <td>14/04/2026 | 08:47 PM</td>
                 </tr>
-                <tr data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1300">
-                    <td><a href="PROJECTS/bootstrap work/griduse.html"> GRIDUSE</a></td>
+
+                <tr>
                     <td>
-                        <span>14/04/2026 | 07:47 PM</span>
+                        <a href="PROJECTS/bootstrap work/form.html">
+                            FORM
+                        </a>
                     </td>
+                    <td>14/04/2026 | 07:50 PM</td>
                 </tr>
-                <tr data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1500">
-                    <td><a href="PROJECTS/bootstrap work/nabar expand/index.html"> EXPAND BUTTON</a></td>
+
+                <tr>
                     <td>
-                        <span>14/04/2026 | 09:03 PM</span>
+                        <a href="PROJECTS/bootstrap work/griduse.html">
+                            GRID USE
+                        </a>
                     </td>
+                    <td>14/04/2026 | 07:47 PM</td>
                 </tr>
-                <tr data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1700">
-                    <td><a href="PROJECTS/bootstrap work/navtabs/index.html"> NAVTABS</a></td>
+
+                <tr>
                     <td>
-                        <span>14/04/2026 | 08:45 PM</span>
+                        <a href="PROJECTS/bootstrap work/nabar expand/index.html">
+                            EXPAND BUTTON
+                        </a>
                     </td>
+                    <td>14/04/2026 | 09:03 PM</td>
                 </tr>
-                <tr data-aos="fade-right" data-aos-duration="1000" data-aos-delay="1900">
-                    <td><a href="PROJECTS/bootstrap work/progerssbar.html"> PROGRESS BAR</a></td>
+
+                <tr>
                     <td>
-                        <span>10/03/2026 | 07:52 PM</span>
+                        <a href="PROJECTS/bootstrap work/navtabs/index.html">
+                            NAVTABS
+                        </a>
                     </td>
+                    <td>14/04/2026 | 08:45 PM</td>
                 </tr>
-                <tr data-aos="fade-right" data-aos-duration="1000" data-aos-delay="2100">
-                    <td><a href="PROJECTS/bootstrap work/table.html"> TABLE</a></td>
+
+                <tr>
                     <td>
-                        <span>14/04/2026 | 07:08 PM</span>
+                        <a href="PROJECTS/bootstrap work/progerssbar.html">
+                            PROGRESS BAR
+                        </a>
                     </td>
+                    <td>10/03/2026 | 07:52 PM</td>
                 </tr>
+
+                <tr>
+                    <td>
+                        <a href="PROJECTS/bootstrap work/table.html">
+                            TABLE
+                        </a>
+                    </td>
+                    <td>14/04/2026 | 07:08 PM</td>
+                </tr>
+
             </tbody>
+
         </table>
+
     </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>
-  AOS.init();
+
+</div>
+
+<footer>
+    © Muhammad Saad | Bootstrap Projects
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+<script>
+    AOS.init();
 </script>
+```
+
 </body>
 
 </html>

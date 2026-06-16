@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ansari2880.github.io/muhammad-saad-portfolio/sitemap.xml
